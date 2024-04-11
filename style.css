@@ -105,6 +105,13 @@ header nav a {
   align-content: center;
   object-fit: contain;
 }
+.image-aigis {
+  width: 20rem;
+  height: 19rem;
+  display: flex;
+  align-content: center;
+  object-fit: contain;
+}
 .table {
   width: 100%;
   border: 4px solid #05fdfd !important;
@@ -189,4 +196,58 @@ header nav a {
 ::-webkit-scrollbar-thumb{
   background-color: #05fdfd;
   background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
+} 
+
+/* ----------------Form------------------------- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form h4 {
+  margin-top: 0;
+  text-align: center;
+  color: #010101;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #010101;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 3px solid #05fdfd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #45a049;
 }
