@@ -1,38 +1,175 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <header>
+      <nav>
+        <img
+          class="logo"
+          src="assets/Persona_3_Reload_logo.svg.png"
+          alt="persona 3 logo"
+        />
+        <ul class="navbar-text">
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#personajes">Personajes</a></li>
+          <li><a href="#trailer">Trailer</a></li>
+        </ul>
+      </nav>
+    </header>
   </head>
   <body>
-    <div id="background">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="#trailer">Trailer</a></li>
-            <li><a href="#screenshots">Screenshots</a></li>
-            <li><a href="#story">Story</a></li>
-            <li><a href="#characters">Characters</a></li>
-            <li><a href="#buy">Buy Now</a></li>
-          </ul>
-        </nav>
-      </header>
-      
-      <!-- <div class="gif-container">
-        <img id="gif" src="assets/persona-3-gif.gif" alt="GIF" />
-      </div> -->
-      <div id="trailer" class="sign">
-        <h1 class="trailer-text">Trailer</h1>
-      </div>
+    <div id="background"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div id="historia" class="sign col-md-5">
+          <h1 class="historia-text">Historia</h1>
+          <div class="text-box">
+            <p>
+              Ponte en la piel de un estudiante recién llegado que se ve
+              arrojado a un destino inesperado cuando entra en la hora
+              "escondida" entre un día y el siguiente. Despierta un poder
+              increíble y persigue los misterios de la Hora Oscura, lucha por tu
+              grupo de amigos y deja huella en su memoria para siempre. Persona
+              3 Reload es la fascinante nueva versión del RPG que definió el
+              género, que ahora renace para la era moderna. Para mas información
+              visita la
+              <a href="https://persona.atlus.com/p3r/index.html?lang=en"
+                >pagina oficial</a
+              >
+              del videjuego.
+            </p>
+          </div>
+        </div>
+        <div class="image-container col-md-4">
+          <img src="assets/tartaro.jpeg" alt="Imagen decorativa" />
+        </div>
 
-    </div>
-    <div id="content">
-        <!-- Your content here -->
+        <h2 style="margin-top: 10rem" class="personajes">Personajes</h2>
+
+        <table id="personajes" class="table">
+          <tr>
+            <th>Nombre</th>
+            <th>Rol</th>
+            <th>Descripción</th>
+          </tr>
+          <tr>
+            <td>Makoto Yuki</td>
+            <td>Protagonista</td>
+            <td>
+              Estudiante de segundo año que se traslada al Instituto Gekkoukan
+              en primavera para volver a la isla donde vivía de pequeño. Tras
+              toparse con un monstruo horripilante, en su interior despierta el
+              poder de Persona, y la Sociedad extraescolar de ejecución de
+              sombras, o S.E.E.S., lo recluta entre sus filas.
+            </td>
+          </tr>
+          <tr>
+            <td>Yukari Takeba</td>
+            <td>Miembro de SEES</td>
+            <td>
+              Estudiante de segundo año en el Instituto Gekkoukan y compañera de
+              clase del protagonista. Su personalidad alegre y su belleza atraen
+              a gran cantidad de admiradores, pero dejando de lado los piropos,
+              es una chica obstinada y distante. Como usuaria de Persona, forma
+              parte de la S.E.E.S..
+            </td>
+          </tr>
+          <tr>
+            <td>Junpei Iori</td>
+            <td>Miembro de SEES</td>
+            <td>
+              Otro compañero de clase del protagonista, como Yukari. Sus
+              habilidades de Persona despiertan poco después de la llegada del
+              protagonista al instituto, lo que le lleva a unirse a S.E.E.S.
+            </td>
+          </tr>
+          <tr>
+            <td>Aigis</td>
+            <td>Co-protagonista</td>
+            <td>
+              Arma de Eliminación Antisombras de 7.ª generación. Esta androide
+              tiene un corazón que bien podría ser humano, el cual le otorga el
+              poder de Persona, y se une a la S.E.E.S..
+            </td>
+          </tr>
+          <tr>
+            <td>Akihiko Sanada</td>
+            <td>Miembro de SEES</td>
+            <td>
+              Estudiante de tercer año del Instituto Gekkoukan y uno de los
+              fundadores de la S.E.E.S..
+            </td>
+          </tr>
+          <tr>
+            <td>Mitsuru Kirijo</td>
+            <td>Miembro de SEES</td>
+            <td>
+              La heredera de una poderosa corporación internacional: el Grupo
+              Kirijo. Es estudiante de tercer curso en el Instituto Gekkoukan y
+              ejerce como presidenta del consejo estudiantil. También lidera la
+              S.E.E.S. y organiza sus operaciones.
+            </td>
+          </tr>
+          <tr>
+            <td>Fuuka Yamagishi</td>
+            <td>Miembro de SEES</td>
+            <td>
+              Estudiante de tercer año del Instituto Gekkoukan callada y
+              tranquila. Los alumnos menos ejemplares se aprovechan de su
+              timidez, lo que la convierte en objeto de burlas.
+            </td>
+          </tr>
+
+          <!-- Agrega más filas según sea necesario -->
+        </table>
+      </div>
     </div>
     <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
+  <footer class="footer">
+    <div class="footer-content">
+      <p>CONNECT WITH ATLUS</p>
+      <a href="#" class="footer-link">ATLUS</a>
+      <a href="#" class="footer-link">XBOX SERIES XIS</a>
+      <a href="#" class="footer-link">XBOX ONE</a>
+      <a href="#" class="footer-link">Windows</a>
+      <a href="#" class="footer-link">GAME PASS</a>
+      <a href="#" class="footer-link">STEAM</a>
+      <p>
+        ©ATLUS. ©SEGA. All rights reserved. SEGA is registered in the U.S.
+        Patent and Trademark Office. ATLUS, the ATLUS logo and Persona 3 Reload
+        are registered trademarks or trademarks of ATLUS Co., Ltd. or its
+        affiliates. SEGA and the SEGA logo are registered trademarks or
+        trademarks of SEGA CORPORATION or its affiliates. All other trademarks,
+        logos and copyrights are property of their respective owners. Microsoft,
+        the Xbox Sphere mark, the Series X logo, Xbox One, and Xbox Series X are
+        trademarks of the Microsoft group of companies. "PlayStation Family
+        Mark", "PS4 Logo", and "PS5 Logo" are registered trademarks or
+        trademarks of Sony Interactive Entertainment Inc. © 2023 Valve
+        Corporation. Steam and the Steam logo are trademarks and/or registered
+        trademarks of Valve Corporation in the U.S. and/or other countries. The
+        ESRB rating icons are registered trademarks of the Entertainment
+        Software Association.
+      </p>
+      <p>
+        LICENSING COOKIE POLICY PRIVACY POLICY YOUR PRIVACY CHOICES CALIFORNIA
+        PRIVACY NOTICE
+      </p>
+    </div>
+  </footer>
 </html>
