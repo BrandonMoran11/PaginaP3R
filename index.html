@@ -60,12 +60,12 @@
 
         <table id="personajes" class="table">
           <tr>
-            <th>Nombre</th>
-            <th>Rol</th>
-            <th>Descripción</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Rol</th>
+            <th scope="col">Descripción</th>
           </tr>
           <tr>
-            <td>Makoto Yuki</td>
+            <th scope="row">Makoto Yuki</th>
             <td>Protagonista</td>
             <td>
               Estudiante de segundo año que se traslada al Instituto Gekkoukan
@@ -76,7 +76,7 @@
             </td>
           </tr>
           <tr>
-            <td>Yukari Takeba</td>
+            <th scope="row">Yukari Takeba</th>
             <td>Miembro de SEES</td>
             <td>
               Estudiante de segundo año en el Instituto Gekkoukan y compañera de
@@ -87,7 +87,7 @@
             </td>
           </tr>
           <tr>
-            <td>Junpei Iori</td>
+            <th scope="row">Junpei Iori</th>
             <td>Miembro de SEES</td>
             <td>
               Otro compañero de clase del protagonista, como Yukari. Sus
@@ -96,7 +96,7 @@
             </td>
           </tr>
           <tr>
-            <td>Aigis</td>
+            <th scope="row">Aigis</th>
             <td>Co-protagonista</td>
             <td>
               Arma de Eliminación Antisombras de 7.ª generación. Esta androide
@@ -105,7 +105,7 @@
             </td>
           </tr>
           <tr>
-            <td>Akihiko Sanada</td>
+            <th scope="row">Akihiko Sanada</th>
             <td>Miembro de SEES</td>
             <td>
               Estudiante de tercer año del Instituto Gekkoukan y uno de los
@@ -113,7 +113,7 @@
             </td>
           </tr>
           <tr>
-            <td>Mitsuru Kirijo</td>
+            <th scope="row">Mitsuru Kirijo</th>
             <td>Miembro de SEES</td>
             <td>
               La heredera de una poderosa corporación internacional: el Grupo
@@ -123,7 +123,7 @@
             </td>
           </tr>
           <tr>
-            <td>Fuuka Yamagishi</td>
+            <th scope="row">Fuuka Yamagishi</th >
             <td>Miembro de SEES</td>
             <td>
               Estudiante de tercer año del Instituto Gekkoukan callada y
@@ -156,13 +156,13 @@
             </p>
           </div>
           <div class="col-md-6" id="sorteo">
-            <form action="#" >
+            <form action="#" class="background-form-image">
               <h4><strong>Participa en el sorteo de la versión Aigis Collection</strong> </h4>
               <label for="nombre"><strong>Nombre:</strong></label>
-              <input type="text" id="nombre" name="nombre" required>
+              <input type="text" id="nombre" name="nombre" aria-required="true">
       
               <label for="correo"><strong>Correo:</strong></label>
-              <input type="email" id="correo" name="correo" required>
+              <input type="email" id="correo" name="correo" aria-required="true">
       
               <button type="submit">Enviar</button>
           </form>

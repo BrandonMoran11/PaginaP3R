@@ -125,7 +125,7 @@ header nav a {
 }
 
 .table th {
-  font-size: 25px;
+  font-size: 20px;
   padding: 8px;
   text-align: left;
   background-color: transparent !important;
@@ -204,7 +204,12 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.background-form-image{
+  background-color: #061d62;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 form {
   max-width: 300px;
   margin: 0 auto;
@@ -214,18 +219,19 @@ form {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
 }
 
 form h4 {
   margin-top: 0;
   text-align: center;
-  color: #010101;
+  color: white;
 }
 
 form label {
   display: block;
   margin-bottom: 5px;
-  color: #010101;
+  color: white;
 }
 
 form input[type="text"],
