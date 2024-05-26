@@ -257,3 +257,8 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background-color: #45a049;
 }
+.aigis img{
+  width: 20rem;
+  height: 20rem;
+  margin-top: 7rem;
+}
