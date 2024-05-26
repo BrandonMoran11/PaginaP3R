@@ -95,7 +95,7 @@ header nav a {
   margin: 0;
   text-align: start;
   font-family: Arial, sans-serif;
-  font-size:20px;
+  font-size: 20px;
 }
 .image-container img {
   width: 100%;
@@ -117,7 +117,7 @@ header nav a {
   border: 4px solid #05fdfd !important;
   /* color: white !important;
    */
-   color: transparent !important;
+  color: transparent !important;
   border-collapse: collapse;
   border-spacing: 5px;
   margin-bottom: 1rem;
@@ -130,7 +130,6 @@ header nav a {
   text-align: left;
   background-color: transparent !important;
   color: white !important;
-  
 }
 .table td {
   padding: 8px;
@@ -138,7 +137,6 @@ header nav a {
   font-size: 20px;
   background-color: transparent !important;
   color: white !important;
-
 }
 
 /* -----------------footer-------------------- */
@@ -170,7 +168,8 @@ header nav a {
   text-decoration: underline;
 }
 
-#container, #footer {
+#container,
+#footer {
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -178,25 +177,34 @@ header nav a {
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 10px;
   background-color: #061d62;
 }
-::-webkit-scrollbar-track{
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: transparent;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: #05fdfd;
-  background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
-} 
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+}
 
 /* ----------------Form------------------------- */
 body {
@@ -204,11 +212,10 @@ body {
   margin: 0;
   padding: 0;
 }
-.background-form-image{
+.background-form-image {
   background-color: #061d62;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 form {
   max-width: 300px;
@@ -219,7 +226,9 @@ form {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
+}
+form button {
+  color: #000000 !important;
 }
 
 form h4 {
@@ -247,7 +256,7 @@ form input[type="email"] {
 form button[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
@@ -257,7 +266,7 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background-color: #45a049;
 }
-.aigis img{
+.aigis img {
   width: 20rem;
   height: 20rem;
   margin-top: 7rem;
