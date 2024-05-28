@@ -228,12 +228,11 @@ form {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-form h1 {
+.sorteo{
   margin-top: 0;
   text-align: center;
-  color: white !important;  
+  color: white !important; 
 }
-
 form label {
   display: block;
   margin-bottom: 5px;
