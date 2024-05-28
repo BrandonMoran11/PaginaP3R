@@ -228,10 +228,10 @@ form {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-form h4 {
+form h1 {
   margin-top: 0;
   text-align: center;
-  color: white;
+  color: white !important;
 }
 
 form label {
